@@ -17,6 +17,9 @@ datos
 
 # Filtrar datos por fecha -------------------------------------------------
 
+# Por Sara Gallego @SaraGallego22
+
+
 datos$fecha_corte <- as.Date(datos$fecha_corte, format="%m/%d/%Y")
 datos_filtrados = filter(datos,fecha_corte == "2023-01-01")
 datos_filtrados

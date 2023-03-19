@@ -50,9 +50,3 @@ shapito_multi <- mshapiro.test(t(matriz_datos))
 #Univariado
 
 shapiro_univ <- shapiro.test(datos_aleatorios[,14])
-
-
-
-
-
-

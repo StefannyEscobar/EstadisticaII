@@ -22,6 +22,10 @@ boxplot(datos_filtrados$rentabilidad_semestral)
 
 # Bag-plot ----------------------------------------------------------------
 
+#Incluyendo muchos outliers
+bagplot(datos_filtrados$rentabilidad_semestral, datos_filtrados$rentabilidad_anual,xlab="Rentabilidad_semestral",
+        ylab="Rentabilidad anual")
 
-bagplot(datos_filtrados$rentabilidad_semestral, datos_filtrados$rentabilidad_anual, xlim=c(0, max(datos_filtrados$rentabilidad_semestral)*1.1), 
-        ylim=c(0, max(datos_filtrados$rentabilidad_anual)*1.1))
+#Incluyendo solo algunos outliers
+bagplot(datos_filtrados$rentabilidad_semestral, datos_filtrados$rentabilidad_anual, xlab="Rentabilidad_semestral",
+        ylab="Rentabilidad anual", main="Bagplot",xlim=c(-50, (100)*1.1), ylim=c(-100, (100)*1.1))

@@ -2,7 +2,8 @@
 
 ## Tareas para curso
 
-Se implementaron pruebas para ver si una muestra era normal y pruebas de detección de outliers, tanto en 1 como p variables
+Se implementaron pruebas para ver si una muestra era normal,pruebas de detección de outliers, tanto en 1 como p variables, además de un análisis de
+regresión en k variables explicativas y un análisis de CLUSTER
 
 ## Datos
 #### Los datos de Credit Card Fraud Detection se obtivieron de:

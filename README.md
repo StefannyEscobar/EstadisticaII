@@ -9,6 +9,10 @@ Se implementaron pruebas para ver si una muestra era normal y pruebas de detecci
 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-#### Y los de rentabiliades de:
+#### Los de rentabiliades son de:
 
 https://www.datos.gov.co/Hacienda-y-Cr-dito-P-blico/FIC2023-21-/uqpf-7qqy
+
+#### Y los datos de personalidad de clientes son de:
+
+https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis?resource=download
